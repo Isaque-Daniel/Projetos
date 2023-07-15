@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    background: #232323;
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    height: 20vh;
+    width: 95%;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background: #232323;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.logo>h1 {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.logo {
+    flex: 20%;
+    margin: 0 auto;
+    margin-left: 2.3%;
+}
+
+.menu>a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 16px;
+    font-size: 20px;
+}
+
+.menu>a:hover {
+    border-top: 4px solid #9b06ce;
+}
+
+.menu {
+    flex: 70%;
+    text-align: right;
+    padding: 20px 16px;
+    margin: 0 auto;
+
+}
+
+#btn-menu1 {
+    margin: 0 auto;
+    margin-left: 5%;
+    padding: 0px 20px 0px 20px;
+    border-radius: 15px;
+    border: 2px solid #9b06ce;
+    padding: 10px 20px 10px 20px;
+}
+
+#btn-menu1:hover {
+    background: #9b06ce;
+    padding: 12px 22px 12px 22px;
+    font-weight: 500;
+}
+
+#btn-menu2 {
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding: 0px 20px 0px 20px;
+    border-radius: 15px;
+    border: 2px solid #9b06ce;
+    padding: 20px 30px 20px 30px;
+    display: none;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#btn-menu2:hover {
+    background: #9b06ce;
+    padding: 22px 32px 22px 32px;
+    font-weight: 500;
+}
+
+.content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+}
+
+.left-content {
+    width: 45%;
+    margin: 0 auto;
+    margin-left: 5%;
+    text-align: left;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+
+#h3-2 {
+    display: none;
+}
+
+.left-content>h2 {
+    font-size: 60px;
+    font-weight: 500;
+    color: #9b06ce;
+    line-height: 60px;
+}
+
+.left-content>h3 {
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    line-height: 60px;
+}
+
+.left-content>p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: white;
+    width: 80%;
+}
+
+.right-content {
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    margin: 0 auto;
+}
+
+.login {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+input {
+    text-decoration: none;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 65%;
+    padding: 25px;
+    outline: none;
+    font-size: 16px;
+    color: rgb(85, 85, 85);
+    font-weight: 400;
+}
+
+.btn-login div {
+    outline: none;
+    text-decoration: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+}
+
+#p2 {
+    display: none;
+}
+
+.btn-login button {
+    outline: none;
+    text-decoration: none;
+    border: none;
+    background: #9b06ce;
+    color: white;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #9b06ce;
+    width: 150px;
+}
+
+.btn-login>button:hover {
+    background: #510969b9;
+    box-shadow: 0px 0px 10px #510969b9;
+}
+
+h6 {
+    display: hidden;
+}

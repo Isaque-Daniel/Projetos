@@ -1,0 +1,160 @@
+@media only screen and (max-width: 1060px) {
+    #btn-menu1 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .content {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 100%;
+        margin-top: 10%;
+        margin: auto;
+        align-content: center;
+        text-align: center;
+    }
+
+    .left-content {
+        text-align: center;
+        align-items: center;
+        width: 95%;
+        margin-top: 10%;
+    }
+
+    .left-content>p {
+        font-size: 22pt;
+    }
+
+    .left-content>h2,
+    .left-content>h3 {
+        font-size: 80px;
+        margin-bottom: 20px;
+    }
+
+    #h2-1 {
+        display: none;
+    }
+
+    #h3-1 {
+        display: none;
+    }
+
+    #h3-2 {
+        display: block;
+    }
+
+    .login {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .right-content {
+        justify-content: center;
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    right-content>img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .btn-login {
+        margin-bottom: 20px;
+    }
+
+    input {
+        width: 95%;
+        padding: 35px;
+        margin: 0px auto 30px auto;
+        font-size: 24px;
+    }
+
+    .btn-login button {
+        outline: none;
+        text-decoration: none;
+        border: none;
+        background: #9b06ce;
+        color: white;
+        padding: 15px;
+        font-weight: 700;
+        font-size: 28px;
+        border-radius: 20px;
+        cursor: pointer;
+        box-shadow: 0px 0px 10px #9b06ce;
+        width: 350px;
+        height: 90px;
+        margin: 0 auto;
+    }
+
+    #btn-menu2 {
+        margin-bottom: 100px;
+        margin-top: -50px;
+    }
+
+    #btn-menu2 {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .navbar {
+        display: none;
+    }
+
+    .left-content {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .left-content>p {
+        font-size: 18pt;
+    }
+
+    #p1 {
+        display: none;
+    }
+
+    #p2 {
+        display: inline;
+    }
+
+    .left-content {
+        margin-left: 0;
+    }
+
+    .left-content>h2,
+    .left-content>h3 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    input {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .btn-login button {
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .login {
+        margin-left: 0;
+    }
+
+}
+
+@media only screen and (max-width: 470px) {
+
+
+    .right-content>img {
+        display: none;
+    }
+}
